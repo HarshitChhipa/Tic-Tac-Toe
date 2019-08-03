@@ -87,6 +87,11 @@ function checkTie() {
 	}
 	return false;
 }
+/**
+ * Minimax Algo for getting the smarted move for computer player.
+ * @param newBoard 
+ * @param player 
+ */
 
 function minimax(newBoard, player) {
 	var availSpots = emptySquares();
